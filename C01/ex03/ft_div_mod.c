@@ -1,25 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmujic <marvin@42lausanne.ch>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/08 19:01:42 by mmujic            #+#    #+#             */
-/*   Updated: 2021/07/13 08:56:51 by mmujic           ###   ########.fr       */
+/*   Created: 2021/07/12 18:08:51 by mmujic            #+#    #+#             */
+/*   Updated: 2021/07/12 19:18:11 by mmujic           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stdio.h>
 
-void	ft_print_numbers(void)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-	char	num;
+	*div = a / b;
+	*mod = a % b;
+}
 
-	num = '0';
-	while (num <= '9')
-	{
-		write(1, &num, 1);
-		num++;
-	}
+int	main(void)
+{
+	int mod;
+	int div;	
+	int a;
+	int b;
+	
+	a = 10;
+	b = 2;
+
+	ft_div_mod(a, b, &div, &mod);
+	printf("div : %d, mod : %d", div, mod);
+
+	return (0);
 }
