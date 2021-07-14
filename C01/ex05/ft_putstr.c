@@ -14,5 +14,5 @@ int	main(void)
 {
 	char hello[] = "hello";
 
-	ft_putstr(&hello[0]);	
+	ft_putstr(&hello[0]);	//fait le lien entre le *str et le tableau du char hello
 }
