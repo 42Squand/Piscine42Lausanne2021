@@ -6,32 +6,20 @@
 /*   By: mmujic <marvin@42lausanne.ch>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/14 11:20:02 by mmujic            #+#    #+#             */
-/*   Updated: 2021/07/14 15:44:05 by mmujic           ###   ########.fr       */
+/*   Updated: 2021/07/15 12:36:34 by mmujic           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {
-	int index;
+	int	index;
 
-	while (*src != '\0')
+	index = 0;
+	while (src[index] != '\0')
 	{
-		*dest = *src;
-		src++;
-		dest++;
+		dest[index] = src[index];
+		index++;
 	}
-
-	*dest = '\0';
-	return (dest);
-}
-
-int	main(void)
-{
-	char dest[] = "destination";
-	char src[] = "test";
-
-	printf("%s\n", dest);
-	ft_strcpy(&dest[0], &src[0]);
-	printf("%s\n", dest);
+	*dest = '\0'
+	return	(dest);
 }
