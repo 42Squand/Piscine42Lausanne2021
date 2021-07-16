@@ -23,3 +23,8 @@ void	ft_print_alphabet(void)
 		alpha++;
 	}
 }
+
+int	main(void)
+{
+	ft_print_alphabet();
+}
