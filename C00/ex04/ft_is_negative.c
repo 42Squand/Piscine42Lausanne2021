@@ -18,3 +18,11 @@ void	ft_is_negative(int n)
 	else
 		write(1, "N", 1);
 }
+
+int	main(void)
+{
+	int num;
+	
+	num = 5;
+	ft_is_negative(num);
+}
