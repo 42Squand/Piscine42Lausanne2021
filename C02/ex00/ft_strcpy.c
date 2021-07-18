@@ -20,6 +20,6 @@ char	*ft_strcpy(char *dest, char *src)
 		dest[index] = src[index];
 		index++;
 	}
-	*dest = '\0'
+	*dest[index] = '\0'
 	return	(dest);
 }
