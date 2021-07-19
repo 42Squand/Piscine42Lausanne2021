@@ -23,3 +23,11 @@ char	*ft_strcpy(char *dest, char *src)
 	*dest[index] = '\0'
 	return	(dest);
 }
+
+int	main(void)
+{
+	char src[] = "salut";
+	char dest[] = "lutsa";
+	
+	printf("%s\n", ft_strcpy(dest,src));
+}
