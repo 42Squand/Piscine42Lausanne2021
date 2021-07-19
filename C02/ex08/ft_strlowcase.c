@@ -14,20 +14,22 @@
 
 char	*ft_strlowcase(char *str)
 {
-	while (*str != '\0')
+	int save;
+	
+	save =0;
+	while (str[save] != '\0')
 	{
-		if (*str >= 65 && *str <= 90)
+		if (str[save] >= 65 && str[save] <= 90)
 		{
-			*str = *str + 32;
+			str[save] = str[save] + 32;
 		}
-		str++;
+		save++;
 	}
 	return (str);
 }
 
 int main(void)
 {
-	char dest[] = "START";
 	char str[] = "ALLO";
 
 	ft_strlowcase(&str[0]);
