@@ -19,7 +19,7 @@ char	*ft_strupcase(char *str)
 	save = 0;
 	while (str[save] != '\0')
 	{
-		if (str[save] >= 97 && *str <= 122)
+		if (str[save] >= 97 && str[save] <= 122)
 		{
 			str[save] = str[save] - 32;
 		}
@@ -32,15 +32,6 @@ int	main(void)
 {
 	char str[] = "salut";
 	
-	ft_strupcase(&str[0]);
+	ft_strupcase(str);
 	printf("%s\n", str);
 }	
-
-int main(void)
-{
-	char dest[] = "START";
-	char str[] = "ALLO";
-
-	ft_strlowcase(&str[0]);
-	printf("%s\n", str);
-}
