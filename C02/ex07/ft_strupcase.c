@@ -33,3 +33,12 @@ int	main(void)
 	ft_strupcase(&str[0]);
 	printf("%s\n", str);
 }	
+
+int main(void)
+{
+	char dest[] = "START";
+	char str[] = "ALLO";
+
+	ft_strlowcase(&str[0]);
+	printf("%s\n", str);
+}
