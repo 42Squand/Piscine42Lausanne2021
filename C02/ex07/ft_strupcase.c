@@ -13,21 +13,23 @@
 #include <stdio.h>
 
 char	*ft_strupcase(char *str)
-{
-	while (*str != '\0')
+{	
+	int save;
+	
+	save = 0;
+	while (str[save] != '\0')
 	{
-		if (*str >= 97 && *str <= 122)
+		if (str[save] >= 97 && *str <= 122)
 		{
-			*str = *str - 32;
+			str[save] = str[save] - 32;
 		}
-		str++;
+		save++;
 	}
 	return (str);
 }
 
 int	main(void)
 {
-	char desti[] = "desti";
 	char str[] = "salut";
 	
 	ft_strupcase(&str[0]);
