@@ -32,6 +32,6 @@ int main(void)
 {
 	char str[] = "ALLO";
 
-	ft_strlowcase(&str[0]);
+	ft_strlowcase(str);
 	printf("%s\n", str);
 }
