@@ -16,6 +16,6 @@ int	main(void)
 {
 	int	charnum;
 	char tab[] = "hello";
-	charnum = ft_strlen(&tab[0]);
+	charnum = ft_strlen(tab);
 	printf("%d\n",charnum );
 }
