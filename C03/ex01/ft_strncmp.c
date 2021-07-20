@@ -19,7 +19,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	
 	index = 0;
 	numb = 1;
-	if
+	if ( n == 0 )
 	{
 		return (0);
 	}
