@@ -18,7 +18,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	int		numb;
 	
 	index =0;
-	num = 1;
+	numb = 1;
 	if (n == 0)
 	{
 		return (0);
