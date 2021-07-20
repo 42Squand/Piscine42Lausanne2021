@@ -14,16 +14,22 @@
 
 int ft_strcmp(char *s1, char *s2)
 {
-	int index;
+	int v1;
+	int v2;
+	int numb;
 	
-	index = 0;
-	while (s1[index] != '\0' && s1[index] == *s2)
+	v1 = 0;
+	v2 = 0;
+	numb = 0;
+	while (s1[v1] != '\0' && s1[v1] == s2[v2])
 	{
-		s1++;
-		s2++;
+		v1++;
+		v2++;
+		numb++;
 	}
-	return (*s1 - *s2);
+	return (s1[v1] - s2[v2]);
 }
+
 int	main(void)
 {
 	char s1[] = "lausanne42";
