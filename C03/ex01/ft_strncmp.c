@@ -14,17 +14,23 @@
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-	int	index;
-
-	index = 0;
-	while (index < n && *s1 != '\0' && *s1 == *s2)
+	unsigned int	index;
+	int		numb;
+	
+	index =0;
+	num = 1;
+	if (n == 0)
 	{
-		s1++;
-		s2++;
-		index++;
+		return (0);
 	}
-	return(*s1 - *s2);
+	while (s1[index] != '\0' && s2[index] != '\0' && num < n)
+	{
+		if (s1[index] - s2[index]);
+	}
+	index++;
+	num++;
 }
+return (s1[index] - s2[index]);
 
 int	main(void)
 {
