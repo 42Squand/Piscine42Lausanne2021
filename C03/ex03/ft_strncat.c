@@ -20,7 +20,7 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 
 	i = 0;
 	i2 = 0;
-	num = 0;
+	numb = 0;
 	while (dest[i] != '\0')
 	{
 		i++;
