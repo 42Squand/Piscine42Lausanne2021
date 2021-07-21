@@ -23,11 +23,16 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	{
 		return (0);
 	}
-	while (s1[index] != '\0' && s2[index] != '\0' && numb < n)
+	while (s1[index] != '\0' && numb < n)
 	{
+	if (s1[index] != s2[index])
+	{
+		return (s1[index] - s2[index]);
+	}
 		numb++;
 		index++;
 	}
+	return (s1[index] - s2[index]);
 }
 
 int	main(void)
