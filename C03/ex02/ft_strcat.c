@@ -29,6 +29,7 @@ char	*ft_strcat(char *dest, char *src)
 		i++;
 		i2++;
 	}
+	dest[i] = '\0';
 	return (dest);
 }
 
