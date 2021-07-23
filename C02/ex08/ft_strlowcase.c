@@ -16,7 +16,7 @@ char	*ft_strlowcase(char *str)
 {
 	int save;
 	
-	save =0;
+	save = 0;
 	while (str[save] != '\0')
 	{
 		if (str[save] >= 65 && str[save] <= 90)
