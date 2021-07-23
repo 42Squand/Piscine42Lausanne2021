@@ -52,3 +52,8 @@ void	ft_putnbr(int nb)
 		ft_calc_numb(v);
 	}
 }
+
+int main(void)
+{
+	ft_putnbr(13456);
+}
