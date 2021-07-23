@@ -34,7 +34,7 @@ void	ft_putnbr(int nb)
 	v = 0;
 	if (nb == 0)
 	{
-		write (1, 0, 1);
+		write (1, "0", 1);
 	}
 	else if (nb == -2147483648)
 	{
