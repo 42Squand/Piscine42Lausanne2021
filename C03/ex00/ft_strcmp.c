@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmujic <marvin@42lausanne.ch>              +#+  +:+       +#+        */
+/*   By: mmujic <mmujic@student.42lausanne.ch>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/16 14:22:01 by mmujic            #+#    #+#             */
 /*   Updated: 2021/07/18 14:48:56 by mmujic           ###   ########.fr       */
