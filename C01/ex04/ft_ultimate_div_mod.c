@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmujic <marvin@42lausanne.ch>              +#+  +:+       +#+        */
+/*   By: mmujic <mmujic@student.42lausanne.ch>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/13 13:29:14 by mmujic            #+#    #+#             */
 /*   Updated: 2021/07/13 16:25:25 by mmujic           ###   ########.fr       */
