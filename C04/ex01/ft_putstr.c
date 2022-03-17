@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mmujic <marvin@42lausanne.ch>              +#+  +:+       +#+        */
+/*   By: mmujic <mmujic@student.42lausanne.ch>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/20 18:00:50 by mmujic            #+#    #+#             */
 /*   Updated: 2021/07/20 18:05:42 by mmujic           ###   ########.fr       */
